@@ -1,1 +1,6 @@
-style.css
+body{
+	background-image: url(../img/imagen-fondo.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
