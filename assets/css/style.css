@@ -7,6 +7,8 @@ body{
 	background-position: center;
 	width: 100%;
 	height: auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 .btn{
@@ -81,9 +83,14 @@ body{
 	color: whitesmoke;
 }
 
+.parrafo{
+	margin: 20px;
+}
+
 .parrafo p{
 	color: whitesmoke;
 	display: inline-block;
+
 }
 
 .circulo{
@@ -98,7 +105,7 @@ body{
 	margin: 3px;
 }
 
-.fa-circle-o{
+.circulito{
 	color: rgba(225, 225, 225, 0.8);
 	margin: 0 auto;
 }
@@ -130,6 +137,7 @@ footer{
 	height: 50px;
 	margin-top: 16%;
 	border-top: 2px solid rgba(225,225,225,0.7);
+	margin-bottom: 20%;
 }
 
 footer p{
@@ -145,4 +153,62 @@ footer p{
 
 #p2:hover{
 	text-decoration: underline;
+}
+
+span{
+	display: block;
+	background-color: rgba(51,51,51,0.8);
+	padding: 5px;
+	width: 50%;
+	color: white;
+}
+
+
+.hidden{
+	/*display: none;*/
+}
+
+.navegador{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+}
+
+.fondito{
+	background-color: white;
+}
+
+.circulos{
+	color: whitesmoke;
+}
+
+.wifi{
+	color: whitesmoke;
+}
+
+.pila{
+	color: whitesmoke;
+}
+
+.listado{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.lista{
+	display: inline-block;
+}
+
+.lista p{
+	color: whitesmoke;
+	padding-left: 90px;
+	padding-right: 149px;
+	margin: 0;
+}
+
+.lista i{
+	margin: 0;
+	padding: 0;
 }
