@@ -1,3 +1,7 @@
+*{
+	font-family: 'ABeeZee', sans-serif;
+}
+
 body{
 	background-image: url(../img/imagen-fondo-4.jpg);
 	background-position: center;
@@ -103,5 +107,42 @@ body{
 	color: whitesmoke;
 	width: 100%;
 	font-size: 15px;
+	margin: 10px 0;
 }
 
+.facebook a{
+	text-decoration: none;
+	color: whitesmoke;
+	margin: 3px;
+	cursor: pointer;
+}
+
+.facebook a:hover{
+	color: blue;
+	background-color: rgba(225,225,225,0.7);
+	padding: 5px;
+	text-decoration: underline;
+
+}
+
+footer{
+	background-color: rgba(225,225,225,0.2);
+	height: 50px;
+	margin-top: 16%;
+	border-top: 2px solid rgba(225,225,225,0.7);
+}
+
+footer p{
+	display: inline-block;
+	margin: 12px 0;
+	color: whitesmoke;
+}
+
+#p2{
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#p2:hover{
+	text-decoration: underline;
+}
