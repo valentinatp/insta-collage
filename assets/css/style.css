@@ -212,3 +212,75 @@ span{
 	margin: 0;
 	padding: 0;
 }
+
+.fondito{
+	background-image: url(../img/imagen-fondo.jpg);
+	background-position: center;
+	margin: 0;
+	padding: 0;
+}
+
+.contenedor-cajas{
+	display: inline-block;
+	padding: 8px;
+}
+
+.cajas{
+	display: inline-block;
+}
+
+#caja-uno{
+	height: 100px;
+	width: 100px;
+	border: 3px solid black;
+	margin: 0;
+}
+
+#caja-dos{
+	height: 100px;
+	width: 100px;
+	border: 3px solid black;
+	margin: 0;
+}
+
+#caja-tres{
+	height: 100px;
+	width: 100px;
+	border: 3px solid black;
+	margin: 0;
+}
+
+#caja-cuatro{
+	height: 100px;
+	width: 100px;
+	border: 3px solid black;
+	margin: 0;
+}
+
+#caja-cinco{
+	height: 100px;
+	width: 100px;
+	border: 3px solid black;
+	margin: 0;
+}
+
+#caja-seis{
+	height: 100px;
+	width: 100px;
+	border: 3px solid black;
+	margin: 0;
+}
+
+#caja-siete{
+	height: 100px;
+	width: 100px;
+	border: 3px solid black;
+	margin: 0;
+}
+
+#caja-ocho{
+	height: 100px;
+	width: 100px;
+	border: 3px solid black;
+	margin: 0;
+}
