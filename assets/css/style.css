@@ -284,3 +284,14 @@ span{
 	border: 3px solid black;
 	margin: 0;
 }
+
+.photos{
+	background-color: black;
+}
+
+.photo{
+	background-color: black;
+	color: whitesmoke;
+	text-transform: uppercase; 
+	padding: 0;
+}
