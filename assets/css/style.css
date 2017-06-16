@@ -1,6 +1,107 @@
 body{
-	background-image: url(../img/imagen-fondo.jpg);
+	background-image: url(../img/imagen-fondo-4.jpg);
 	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
 }
+
+.btn{
+	background-color: transparent;
+	color: whitesmoke;
+}
+
+.btn:hover{
+	background-color: rgba(255,255,255,0.5);
+}
+
+.btn a{
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+.btn a:hover{
+	color: black;
+}
+
+.open>.dropdown-menu {
+    display: block;
+    background-color: rgba(255,255,255,0.5);
+ }
+
+.open>.dropdown-menu a{
+    color: black;
+}
+
+.open>.dropdown-menu a:hover{
+	color: red;
+	background-color: transparent;
+
+}
+
+.titulo h1{
+	color: whitesmoke;
+	font-family: 'Lobster', cursive;
+}
+
+.panel-default {
+    background-color: transparent;
+    border: none;
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: transparent;
+    border: none;
+}
+
+.panel-title{
+	color: whitesmoke;
+}
+
+.form-control{
+	background-color: rgba(225,225,255,0.3);
+	border: 2px solid whitesmoke;
+	color: whitesmoke;
+	border-radius: 0;
+}
+
+.checkbox label{
+	color: whitesmoke;
+}
+
+.boton-login{
+	width: 100%;
+	background-color: transparent;
+	border: 2px solid whitesmoke;
+	height: 40px; 
+	color: whitesmoke;
+}
+
+.parrafo p{
+	color: whitesmoke;
+	display: inline-block;
+}
+
+.circulo{
+	display: inline-block;
+	line-height: 2px;
+}
+
+.cont{
+	display: inline-block;
+	border-top: 2px solid rgba(225, 225, 225, 0.8);
+	width: 40%; 
+	margin: 3px;
+}
+
+.fa-circle-o{
+	color: rgba(225, 225, 225, 0.8);
+	margin: 0 auto;
+}
+
+.facebook{
+	color: whitesmoke;
+	width: 100%;
+	font-size: 15px;
+}
+
