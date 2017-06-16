@@ -311,3 +311,20 @@ span{
 	border: 3px solid black;
 	margin: 0;
 }
+
+.navbar{
+	background-color: black;
+	padding: 0;
+	border: 2px solid grey;
+}
+
+.navbar a{
+	color: grey;
+	padding-right: 73px;
+	padding-top: 5px;
+	line-height: 34px; 
+}
+
+.navbar a:hover{
+	color: #3175b0;
+}
